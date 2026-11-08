@@ -1,0 +1,24 @@
+[general]
+name=FeatureHopper
+description=Step through the features of a vector layer one by one, with automatic zoom/pan and attribute search.
+description[da]=Hop fra feature til feature i et vektorlag med automatisk zoom/pan og søgning på attributværdi.
+version=1.1
+changelog=1.1 - Danish/English user interface that follows the QGIS language setting.
+about=FeatureHopper lets you hop from feature to feature in the selected vector layer using two clear Previous/Next buttons or the left/right arrow keys. Each hop zooms and pans the map to the feature, and can optionally select it as well. A search box with autocomplete lets you pick an attribute field, type the beginning of a value (for example "Rorb" for "Rorbaeksvej 8") and jump directly to the matching feature. An optional label can show the feature's value on the map. A single button switches the plugin to the layer that is active in the Layers panel.
+about[da]=FeatureHopper lader dig hoppe fra feature til feature i det valgte vektorlag med to tydelige knapper (Forrige/Næste) eller venstre/højre piletast. Hvert hop zoomer og panorerer kortet til featuren og kan eventuelt også vælge den. Et søgefelt med autocomplete lader dig vælge et attributfelt, skrive begyndelsen af en værdi (fx "Rorb" for "Rorbaeksvej 8") og springe direkte til den matchende feature. En valgfri label kan vise featurens værdi på kortet. Én knap skifter pluginet til det lag, der er aktivt i Lag-panelet.
+tags=navigation,feature,zoom,pan,search,attribute,browse
+tags[da]=navigation,feature,zoom,pan,søgning,attribut,gennemse
+category=Vector
+qgisMinimumVersion=3.0
+qgisMaximumVersion=4.99
+author=qLER ApS
+email=support@qler.dk
+license=GPL-2.0-or-later
+hasProcessingProvider=no
+icon=icon.png
+experimental=True
+deprecated=False
+server=False
+homepage=https://github.com/qleraps/qgis_featurehopper
+tracker=https://github.com/qleraps/qgis_featurehopper/issues/
+repository=https://github.com/qleraps/qgis_featurehopper
